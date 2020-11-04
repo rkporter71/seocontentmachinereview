@@ -1,0 +1,314 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ppts" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ppts">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Stag" type="xs:string" minOccurs="0" />
+                <xs:element name="Etag" type="xs:string" minOccurs="0" />
+                <xs:element name="Source" type="xs:string" minOccurs="0" />
+                <xs:element name="ShortTag" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+ <ppts>
+    <Id>22</Id>
+    <Name>leftCategory</Name>
+    <Type>Category</Type>
+    <Stag>&lt;ul class="list-unstyled mb-0" class="leftCat"&gt;</Stag>
+    <Etag>&lt;/ul&gt;</Etag>
+    <Source>&lt;li&gt;
+     &lt;a href="!catlink"&gt;!category&lt;/a&gt;
+ &lt;/li&gt;</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>16</Id>
+    <Name>home-post</Name>
+    <Type>Post</Type>
+    <Stag>&lt;div class="my-posts"&gt;</Stag>
+    <Etag>&lt;/div&gt;</Etag>
+    <Source>&lt;div class="card mb-4"&gt;
+            &lt;img class="card-img-top" src="!imagepath" alt="!imagealt"&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h2 class="card-title"&gt;&lt;a href="!postlink"&gt;!title&lt;/a&gt;&lt;/h2&gt;
+              &lt;p class="card-text"&gt;!description&lt;/p&gt;
+              &lt;a href="!postlink" class="btn btn-primary"&gt;Read More &amp;rarr;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-footer text-muted"&gt;
+              Posted on !postdate by
+              &lt;a href="!authprofile"&gt;!author&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>14</Id>
+    <Name>Banner</Name>
+    <Type>Banner</Type>
+    <Stag />
+    <Etag />
+    <Source>        
+	&lt;div class="card my-4"&gt;
+&lt;div class="card-body"&gt;
+!Banner!
+&lt;/div&gt;
+&lt;/div&gt;
+</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>15</Id>
+    <Name>RecentPosts</Name>
+    <Type>RecentPost</Type>
+    <Stag />
+    <Etag />
+    <Source>         &lt;li&gt;
+       &lt;a href="!postlink"&gt;!title &lt;/a&gt; 
+         &lt;/li&gt;</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+ 
+  <ppts>
+    <Id>3</Id>
+    <Name>Home Title</Name>
+    <Type>Shortcode</Type>
+    <Stag>!HomeTitle</Stag>
+    <Etag />
+    <Source>Add Home Title Here</Source>
+    <ShortTag>!HomeTitle</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>4</Id>
+    <Name>Meta Description</Name>
+    <Type>Shortcode</Type>
+    <Stag>!MetaDescription</Stag>
+    <Etag />
+    <Source>Add Meta Description Here</Source>
+    <ShortTag>!MetaDescription</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>5</Id>
+    <Name>Meta Keywords</Name>
+    <Type>Shortcode</Type>
+    <Stag>!MetaKeywords</Stag>
+    <Etag />
+    <Source>Add Meta Keywords Here</Source>
+    <ShortTag>!MetaKeywords</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>6</Id>
+    <Name>Site Name</Name>
+    <Type>Shortcode</Type>
+    <Stag>!SiteName</Stag>
+    <Etag />
+    <Source>Site Name</Source>
+    <ShortTag>!SiteName</ShortTag>
+  </ppts>
+ 
+  <ppts>
+    <Id>76</Id>
+    <Name>Home Page Heading H1</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Heading</Stag>
+    <Etag />
+    <Source>Home Page Heading H1</Source>
+    <ShortTag>!Heading</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>77</Id>
+    <Name>H1 Heading Description</Name>
+    <Type>Shortcode</Type>
+    <Stag>!HeadDesc</Stag>
+    <Etag />
+    <Source>H1 Heading Description</Source>
+    <ShortTag>!HeadDesc</ShortTag>
+  </ppts>
+ 
+  <ppts>
+    <Id>13</Id>
+    <Name>Footer</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FooterText</Stag>
+    <Etag />
+    <Source>Add your footer text here</Source>
+    <ShortTag>!FooterText</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>17</Id>
+    <Name>Post Editor</Name>
+    <Type>PostEditor</Type>
+    <Stag>&lt;!--postcontent--&gt;</Stag>
+    <Etag>&lt;!--endpostcontent--&gt;</Etag>
+    <Source />
+    <ShortTag>&lt;!--postcontent --&gt;</ShortTag>
+  </ppts>
+<ppts>
+    <Id>20</Id>
+    <Name>Sitemap</Name>
+    <Type>Sitemap</Type>
+    <Stag>&lt;!--sitemap--&gt;</Stag>
+    <Etag>&lt;!--endsitemap--&gt;</Etag>
+    <Source>
+	&lt;dl class="row">
+    &lt;dt class="col-sm-4"&gt;&lt;small&gt;&lt;a href="{!PostLink}" title="{!PostTitle}"&gt;{!PostTitle}&lt;/a&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dd class="col-sm-8"&gt;&lt;small&gt;{!description}&lt;/small&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+	</Source>
+    <ShortTag>&lt;!--sitemap --&gt;</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>63</Id>
+    <Name>Custom Search Box Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Custom</Stag>
+    <Etag />
+    <Source>Add Custom Search Box Code Here</Source>
+    <ShortTag>!Custom</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>67</Id>
+    <Name>Custom Search Results Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Results</Stag>
+    <Etag />
+    <Source>Add Custom Search Results Code Here</Source>
+    <ShortTag>!Results</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>61</Id>
+    <Name>Social Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Social</Stag>
+    <Etag />
+    <Source>Add Social Share Button Code Here</Source>
+    <ShortTag>!Social</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>65</Id>
+    <Name>Sticky Widget Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Widget</Stag>
+    <Etag />
+    <Source>Add Sticky Widget Code Here</Source>
+    <ShortTag>!Widget</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>66</Id>
+    <Name>Contact Form Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!ConForm</Stag>
+    <Etag />
+    <Source>Add Your Contact Form Code Here</Source>
+    <ShortTag>!ConForm</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>62</Id>
+    <Name>Adsense Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Adsense</Stag>
+    <Etag />
+    <Source>Add Adsense Code Here</Source>
+    <ShortTag>!Adsense</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>64</Id>
+    <Name>Analytics Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Analytics</Stag>
+    <Etag />
+    <Source>Add Analytics Code Here</Source>
+    <ShortTag>!Analytics</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>80</Id>
+    <Name>FAQ Heading</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQHead</Stag>
+    <Etag />
+    <Source>Add FAQ Heading Here</Source>
+    <ShortTag>!FAQHead</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>81</Id>
+    <Name>FAQ Question 1</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQQ1</Stag>
+    <Etag />
+    <Source>Add 1st Question Here</Source>
+    <ShortTag>!FAQQ1</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>82</Id>
+    <Name>FAQ Answer 1</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQA1</Stag>
+    <Etag />
+    <Source>Add 1st Answer Here</Source>
+    <ShortTag>!FAQA1</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>83</Id>
+    <Name>FAQ Question 2</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQQ2</Stag>
+    <Etag />
+    <Source>Add 2nd Question Here</Source>
+    <ShortTag>!FAQQ2</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>84</Id>
+    <Name>FAQ Answer 2</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQA2</Stag>
+    <Etag />
+    <Source>Add 2nd Answer Here</Source>
+    <ShortTag>!FAQA2</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>85</Id>
+    <Name>FAQ Question 3</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQQ3</Stag>
+    <Etag />
+    <Source>Add 3rd Question Here</Source>
+    <ShortTag>!FAQQ3</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>86</Id>
+    <Name>FAQ Answer 3</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQA3</Stag>
+    <Etag />
+    <Source>Add 3rd Answer Here</Source>
+    <ShortTag>!FAQA3</ShortTag>
+  </ppts>
+  
+   
+  </NewDataSet>
