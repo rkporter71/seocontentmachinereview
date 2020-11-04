@@ -1,0 +1,25 @@
+#you can add title of the table,with its style alongside.
+<title>
+<h4>On This Page</h4>
+</title>
+#Below node is for repeating element Source code for table of content, 
+#{!heading} will be replaced with actual heading text
+#{!headindex} will be replaced with actual heading number
+<item>
+<li>
+<a href="#{!headindex}">{!heading}</a>
+</li>
+</item>
+#Below node is for html Source for table of content, 
+#{!title} will be replaced with title of the table of content
+#{!item} will be replaced with source code given above for element
+<maintemplate>
+<div class="col-sm-12 col-md-6" style="float: left;">
+<div style="width: 95%; border: 1px solid #C0C0C0; padding-left: 10px;">
+{!title}
+<ol>
+{!item}
+</ol>
+</div></div>
+</maintemplate>
+
